@@ -1,7 +1,6 @@
 use clap::{arg, command, Parser};
 use std::fs;
 
-/// Simple program to greet a person
 #[derive(Parser, Debug)]
 #[command(author, version, about, long_about = None)]
 struct Args {
@@ -30,7 +29,6 @@ fn to_numbers(input: String) -> String {
         .replace("zero", "zero0zero")
 }
 fn main() {
-    // --snip--
     let args = Args::parse();
     println!("In file {}", args.input);
 

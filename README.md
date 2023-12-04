@@ -1,6 +1,6 @@
 # Advent of Code 2023
 
-What you are about to see is probably one of the nastier Rust code you've seen in your life.
+What you are about to see is probably some of the nastiest Rust code you've seen in your life.
 
 To run the different solutions:
 ```
